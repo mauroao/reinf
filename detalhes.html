@@ -76,7 +76,7 @@
         <div id="page-wrapper" >
 		  <div class="header"> 
                         <h1 class="page-header">
-                            Controle de Arquivos 
+                            Detalhes do arquivo
                         </h1>		
 		  </div>
 		
@@ -87,94 +87,53 @@
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                             Listagem de arquivos processados
+                             Histórico de alteracões
                         </div>
                         <div class="panel-body">
                             <div class="table-responsive">
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
-                                            <th>Arquivo</th>
-                                            <th>Data Input</th>
-                                            <th>Data XML</th>
-                                            <th>Data Enviado</th>
+                                            <th>Data</th>
+                                            <th>Histórico</th>
                                             <th>.</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr class="odd gradeX">
-                                            <td>Reinf0003.csv</td>
-                                            <td>28/08/2017</td>
-                                            <td> - </td>
-                                            <td> - </td>
-					    <td> <button class="btn btn-sm btn-info">detalhes</button> </td>
+                                            <td>20/08/2017 13:41</td>
+                                            <td class="red"> <i class="fa fa-exclamation-circle" aria-hidden="false"></i> Arquivo .CSV com erro</td>
+                                            <td> <button class="btn btn-default btn-sm">Detalhes</button> </td>
                                         </tr>
                                         <tr class="even gradeC">
-                                            <td>Reinf0004.csv</td>
-                                            <td>28/08/2017</td>
-                                            <td> - </td>
-                                            <td> - </td>
-					    <td> <button class="btn btn-sm btn-info">detalhes</button> </td>
-                                        </tr>
+                                            <td>20/08/2017 13:44</td>
+                                            <td>Arquivo .CSV importado com sucesso</td>
+                                            <td></td>
+                                        </tr>	
                                         <tr class="odd gradeX">
-                                            <td>Reinf0003.csv</td>
-                                            <td>28/08/2017</td>
-                                            <td> - </td>
-                                            <td> - </td>
-					    <td> <button class="btn btn-sm btn-info">detalhes</button> </td>
+                                            <td>20/08/2017 13:48</td>
+                                            <td class="red"><i class="fa fa-exclamation-circle" aria-hidden="false"></i> XML processado com erro</td>
+                                            <td> <button class="btn btn-default btn-sm">Detalhes</button> </td>
                                         </tr>
                                         <tr class="even gradeC">
-                                            <td>Reinf0004.csv</td>
-                                            <td>28/08/2017</td>
-                                            <td> - </td>
-                                            <td> - </td>
-					    <td> <button class="btn btn-sm btn-info">detalhes</button> </td>
-                                        </tr>
-                                        <tr class="odd gradeX">
-                                            <td>Reinf0003.csv</td>
-                                            <td>28/08/2017</td>
-                                            <td> - </td>
-                                            <td> - </td>
-					    <td> <button class="btn btn-sm btn-info">detalhes</button> </td>
-                                        </tr>
-                                        <tr class="even gradeC">
-                                            <td>Reinf0004.csv</td>
-                                            <td>28/08/2017</td>
-                                            <td> - </td>
-                                            <td> - </td>
-					    <td> <button class="btn btn-sm btn-info">detalhes</button> </td>
-                                        </tr>
-                                        <tr class="odd gradeX">
-                                            <td>Reinf0003.csv</td>
-                                            <td>28/08/2017</td>
-                                            <td> - </td>
-                                            <td> - </td>
-					    <td> <button class="btn btn-sm btn-info">detalhes</button> </td>
-                                        </tr>
-                                        <tr class="even gradeC">
-                                            <td>Reinf0004.csv</td>
-                                            <td>28/08/2017</td>
-                                            <td> - </td>
-                                            <td> - </td>
-					    <td> <button class="btn btn-sm btn-info">detalhes</button> </td>
-                                        </tr>
-                                        <tr class="odd gradeX">
-                                            <td>Reinf0003.csv</td>
-                                            <td>28/08/2017</td>
-                                            <td> - </td>
-                                            <td> - </td>
-					    <td> <button class="btn btn-sm btn-info">detalhes</button> </td>
-                                        </tr>
-                                        <tr class="even gradeC">
-                                            <td>Reinf0004.csv</td>
-                                            <td>28/08/2017</td>
-                                            <td> - </td>
-                                            <td> - </td>
-					    <td> <button class="btn btn-sm btn-info">detalhes</button> </td>
-                                        </tr>					    
+                                            <td>20/08/2017 13:50</td>
+                                            <td>XML processado com sucesso</td>
+                                            <td></td>
+                                        </tr>                                           				    
                                     </tbody>
                                 </table>
-                            </div>
+                            </div> 
+                        </div>
+
+                        <div class="panel-heading">
+                             Comandos
+                        </div>  
+
+                        <div class="panel-body">
+                            <button class="btn btn-primary">Gerar XML</button>
+                            <button class="btn btn-success">Enviar XML</button>
+                            <button class="btn btn-default">Visualizar XML</button>
+                            <button class="btn btn-success">Reenviar XML</button>                        
                             
                         </div>
                     </div>
